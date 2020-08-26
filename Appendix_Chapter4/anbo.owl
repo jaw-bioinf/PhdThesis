@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/anbo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/anbo.owl"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:nbo="http://purl.obolibrary.org/obo/nbo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/anbo.owl">
+        <owl:versionIRI rdf:resource="http://www4.ujaen.es/~dofer/ontologies/obo/releases/2018-31-07/releases/2018-31-07/anbo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/core-relations.owl"/>
+        <owl:imports rdf:resource="http://www4.ujaen.es/~dofer/ontologies/obo/osle/external/nbo_import_mireot.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://www4.ujaen.es/~dofer/ontologies/obo/anbo/external/nbo_import.owl"/>
+        <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05-11</oboInOwl:remark>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/anbo.owl#IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#IAO_0000301 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/anbo.owl#IAO_0000301"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/anbo.owl#created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/anbo.owl#namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#note"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#minCardinality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minCardinality"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo/has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo/is_about -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/nbo/is_about"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon/has_quality -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon/has_quality"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000373"/>
+        <IAO_0000115>The ability to perceive spatial patterns or to maintain orientation with respect to objects in space (Ekstrom et al. 1977)</IAO_0000115>
+        <IAO_0000301>Ekstrom, R. B., Dermen, D., and Harman, H. H. (1976). Manual for kit of factor-referenced cognitive tests (Vol. 102). Princeton, NJ: Educational Testing Service.</IAO_0000301>
+        <IAO_0000301>Willis, S. L., and Schaie, K. W. (1986). Training the elderly on the ability factors of spatial orientation and inductive reasoning. Psychology and aging, 1(3), 239.</IAO_0000301>
+        <created_by>Fernando Martínez-Santiago</created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <dc:date>2018-08-02</dc:date>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      A proceess regarding problem solving tasks
+      </obo:IAO_0000115>
+        <namespace>elderly_behavior_ontology</namespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000003">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000297"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001530"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>A phenotype related with semantic memory</obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (problem solving  and (has_quality some(behavioral quality of a process)))</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semantic memory phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000314"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
+        <IAO_0000115>Perceptual task requiring attention that typically involves an active scan of the visual environment for a particular object or feature (the target) among other objects or features (the distractors) [wikipedia: visual search]</IAO_0000115>
+        <created_by>Fernando Martínez-Santiago</created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <dc:date>2018-08-02</dc:date>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual scanning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000006">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000458"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000161"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000999"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>A phenotype related with semantic memory</obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (alternating attention behavior  and (has_quality some(alternation OR rate)))</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternating attention behavior phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ANBO_0000004"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon/has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000498"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>
+            &quot;A phenotype manifested by a slow visual scanning.&quot; 
+        </obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (visual scanning  and (has_quality some(increased duration)</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slow visual scanning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000008">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ANBO_0000004"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>
+            &quot;A phenotype manifested by a wrong visual scanning.&quot; 
+        </obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (visual scanning  and (has_quality some(increased duration)</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrong visual scanning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000558"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004681"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115> process through which humans and other organisms become aware of the relative positions of their own bodies and objects around them. Space perception provides cues, such as depth and distance, that are important for movement and orientation to the environment.</IAO_0000115>
+        <created_by>Fernando Martínez-Santiago</created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <dc:date>2018-08-02</dc:date>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial perception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000010">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000373"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ANBO_0000011"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>
+            &quot;A phenotype manifested by disorientation.&quot; 
+        </obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (locomotory orientation behavior  and (has_quality some(disoriented)</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002076"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      A behavioral quality inhering in a bearer by virtue of the bearer&apos;s being affected by loss of the ability to be oriented.    
+      </obo:IAO_0000115>
+        <namespace>elderly_behavior_ontology</namespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disoriented</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000012">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000180"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000499"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001564"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>
+            &quot;A phenotype manifested by short term memory loss.&quot; 
+        </obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (shprt-term memory  and (has_quality some(extra or missing processual parts OR decreased duration)</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000013">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000186"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000307"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>A phenotype related with semantic memory</obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (semantic memory  and (has_quality some(memory retrieval behavior)))</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semantic memory phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000014">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000460"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000161"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000999"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>A phenotype related with semantic memory</obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (alternating attention behavior  and (has_quality some(alternation OR rate)))</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternating attention behavior phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ANBO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ANBO_0000015">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000457"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000911"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000659"/>
+        <obo:IAO_0000115>
+            &quot;A phenotype manifested by a slow visual scanning.&quot; 
+        </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      .    
+      </obo:IAO_0000115>
+        <obo:created_by>Fernando Martínez-Santiago</obo:created_by>
+        <namespace>elderly_behavior_ontology</namespace>
+        <oboInOwl:note> participates_in some  (visual scanning  and (has_quality some(increased duration)</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory perception that happens in sensory noisy environments
+</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slow visual scanning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007600">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000180">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:hasBroadSynonym xml:lang="en">working memory</oboInOwl:hasBroadSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000186">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000306"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000225">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000308"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000297">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000293"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ANBO_0000002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000308 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000308">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000308"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000341 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000341">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000348"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000373">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000308"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ANBO_0000009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000457"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000458"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000100">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000297"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000297"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000101"/>
+        <rdfs:label xml:lang="eo">planning behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000101">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000297"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo/is_about"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000452"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000297"/>
+        <rdfs:label xml:lang="eo">monitoring behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000455"/>
+        <rdfs:label xml:lang="eo">focused attention behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000455"/>
+        <rdfs:label xml:lang="eo">sustained attention behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#class"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#onProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#onProperty"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#someValuesFrom -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#someValuesFrom"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#someValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#class"/>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000457"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000458"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000460"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000102"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/anbo.owl#ANBO_0000103"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
