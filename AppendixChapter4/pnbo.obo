@@ -11961,7 +11961,6 @@ def: "\" An observed social phenotype which participates in communication behavi
 is_a: NBO:0000564 ! social behavior phenotype
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-0357-5454
 created_by: John Williams
-created_by: John Williams
 
 [Term]
 id: PNBO:003
@@ -12146,6 +12145,7 @@ created_by: John Williams
 id: PNBO:026
 name: head nodding
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
+is_a: PNBO:020 ! bodily communication
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-0357-5454
 created_by: John Williams
 
@@ -12333,6 +12333,7 @@ created_by: John Williams
 id: PNBO:051
 name: head shaking
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
+is_a: PNBO:020 ! bodily communication
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-0357-5454
 created_by: John Williams
 
