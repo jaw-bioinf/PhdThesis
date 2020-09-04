@@ -1,0 +1,15 @@
+ID	Name	Probability 
+PNBO_026	head nodding	0.99991 
+NBO_0000656	somatic sensation related behavior phenotype	0.2525 
+NBO_0000229	vestibular behavior phenotype	0.24942 
+NBO_0000595	posture phenotype	0.24611 
+PNBO_024	abnormal gait	0.24539 
+PNBO_083	unusual preoccupations	0.06794 
+PNBO_013	midline hand movements	0.01165 
+UBERON_0000477		0 
+by_means	by_means	0 
+has-input	has-input	0 
+has_participant	has_participant	0 
+in_response_to	in_response_to	0 
+is_about	is_about	0 
+qualifier	qualifier	0 

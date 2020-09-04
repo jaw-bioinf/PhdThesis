@@ -1,0 +1,4 @@
+V1	p_value	term_id	source	term_name 
+1	0.0499	CORUM:7357	CORUM	TRIM25-G3BP2 complex 
+2	0.0197	TF:M03916	TF	Factor: PRDM1; motif: NRAAAGTGAAAGTNN 
+3	0.0197	TF:M03916_0	TF	Factor: PRDM1; motif: NRAAAGTGAAAGTNN; match class: 0 

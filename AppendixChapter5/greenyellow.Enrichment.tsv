@@ -1,0 +1,12 @@
+V1	p_value	term_id	source	term_name 
+1	0.0224	KEGG:04330	KEGG	Notch signaling pathway 
+2	0.0011	REAC:R-HSA-2894862	REAC	Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants 
+3	0.0011	REAC:R-HSA-2644606	REAC	Constitutive Signaling by NOTCH1 PEST Domain Mutants 
+4	0.0011	REAC:R-HSA-2894858	REAC	Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer 
+5	0.0011	REAC:R-HSA-2644602	REAC	Signaling by NOTCH1 PEST Domain Mutants in Cancer 
+6	0.0011	REAC:R-HSA-2644603	REAC	Signaling by NOTCH1 in Cancer 
+7	0.0021	REAC:R-HSA-1980143	REAC	Signaling by NOTCH1 
+8	0.0300	REAC:R-HSA-350054	REAC	Notch-HLH transcription pathway 
+9	0.0419	REAC:R-HSA-1980145	REAC	Signaling by NOTCH2 
+10	0.0251	WP:WP3845	WP	Canonical  and Non-canonical Notch signaling 
+11	0.0310	WP:WP4905	WP	1q21.1 copy number variation syndrome 

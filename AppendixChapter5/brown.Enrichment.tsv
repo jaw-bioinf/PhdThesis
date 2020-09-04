@@ -1,0 +1,30 @@
+V1	p_value	term_id	source	term_name 
+1	0.0017	CORUM:6780	CORUM	RAD6A-KCMF1-UBR4 complex 
+2	0.0248	GO:0008396	GO:MF	oxysterol 7-alpha-hydroxylase activity 
+3	0.0248	GO:0015218	GO:MF	pyrimidine nucleotide transmembrane transporter activity 
+4	0.0248	GO:0033783	GO:MF	25-hydroxycholesterol 7alpha-hydroxylase activity 
+5	0.0248	GO:0047092	GO:MF	27-hydroxycholesterol 7-alpha-monooxygenase activity 
+6	0.0460	KEGG:00120	KEGG	Primary bile acid biosynthesis 
+7	0.0227	REAC:R-HSA-5579013	REAC	Defective CYP7B1 causes Spastic paraplegia 5A, autosomal recessive (SPG5A) and (CBAS3) 
+8	0.0427	REAC:R-HSA-1660517	REAC	Synthesis of PIPs at the late endosome membrane 
+9	0.0427	REAC:R-HSA-175474	REAC	Assembly Of The HIV Virion 
+10	0.0427	REAC:R-HSA-435354	REAC	Zinc transporters 
+11	0.0427	REAC:R-HSA-435368	REAC	Zinc efflux and compartmentalization by the SLC30 family 
+12	0.0427	REAC:R-HSA-174490	REAC	Membrane binding and targetting of GAG proteins 
+13	0.0427	REAC:R-HSA-193807	REAC	Synthesis of bile acids and bile salts via 27-hydroxycholesterol 
+14	0.0427	REAC:R-HSA-174495	REAC	Synthesis And Processing Of GAG, GAGPOL Polyproteins 
+15	0.0427	REAC:R-HSA-1855183	REAC	Synthesis of IP2, IP, and Ins in the cytosol 
+16	0.0451	REAC:R-HSA-193368	REAC	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol 
+17	0.0451	REAC:R-HSA-192105	REAC	Synthesis of bile acids and bile salts 
+18	0.0451	REAC:R-HSA-211976	REAC	Endogenous sterols 
+19	0.0451	REAC:R-HSA-425410	REAC	Metal ion SLC transporters 
+20	0.0451	REAC:R-HSA-9615710	REAC	Late endosomal microautophagy 
+21	0.0451	REAC:R-HSA-264876	REAC	Insulin processing 
+22	0.0451	REAC:R-HSA-917729	REAC	Endosomal Sorting Complex Required For Transport (ESCRT) 
+23	0.0451	REAC:R-HSA-162588	REAC	Budding and maturation of HIV virion 
+24	0.0463	REAC:R-HSA-5579029	REAC	Metabolic disorders of biological oxidation enzymes 
+25	0.0497	REAC:R-HSA-194068	REAC	Bile acid and bile salt metabolism 
+26	0.0420	WP:WP465	WP	Tryptophan metabolism 
+27	0.0420	WP:WP3529	WP	Zinc homeostasis 
+28	0.0420	WP:WP4545	WP	Oxysterols derived from cholesterol 
+29	0.0457	WP:WP43	WP	Oxidation by Cytochrome P450 
